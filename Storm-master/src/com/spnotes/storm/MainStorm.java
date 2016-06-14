@@ -14,7 +14,7 @@ public class MainStorm {
         Config config = new Config();
         config.put("inputFile", "C:\\Users\\Adnan\\Desktop\\test\\obfuscated_data");
         config.setDebug(true);
-        config.setNumWorkers(8);
+        config.setNumWorkers(20);
         config.put(Config.TOPOLOGY_MAX_SPOUT_PENDING, 5);
         config.put(Config.TOPOLOGY_RECEIVER_BUFFER_SIZE, 16);
         config.put(Config.TOPOLOGY_TRANSFER_BUFFER_SIZE, 32);
